@@ -1,6 +1,6 @@
 # CompletableFutureDemo
 
-Програма демонструє, як працювати з `CompletableFuture` у Java для асинхронного виконання завдань. Вона містить два приклади:
+Моя програма демонструє роботу з методами класу `CompletableFuture`, а саме: `thenCompose()`, `thenCombine()`, `allOf()` та `anyOf()`. Для цього я використовую знання з лекцій та минулих практичних.
 
 ## Сума результатів завдань
 
@@ -32,12 +32,9 @@ System.out.println("Найкращий варіант: " + bestOption.get());
 
 ## Запуск програми
 
-1. Скомпілюйте програму:
+Компіляція та запуск програму:
    ```bash
    javac CompletableFutureDemo.java
-   ```
-2. Запустіть програму:
-   ```bash
    java CompletableFutureDemo
    ```
 
